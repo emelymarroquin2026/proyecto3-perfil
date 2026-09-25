@@ -1,0 +1,139 @@
+/* =========================================
+   PROYECTO 3 - ESTILOS INICIALES
+   ========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* HEADER */
+
+header {
+    background-color: #17202a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+
+/* CONTENIDO */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+
+/* SECCIONES */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+
+/* ESTADÍSTICAS */
+
+.estadisticas {
+    text-align: center;
+}
+
+#btn-estadisticas {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #17202a;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#btn-estadisticas:hover {
+    opacity: 0.85;
+}
+
+#estadisticas {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* PILOTOS */
+
+.contenedor-pilotos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+/* IMPORTANTE:
+   En la versión inicial NO hay border */
+
+.card-piloto {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card-piloto h2 {
+    margin-bottom: 15px;
+}
+
+.card-piloto p {
+    margin-bottom: 8px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #17202a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    main {
+        width: 95%;
+    }
+
+    .contenedor-pilotos {
+        flex-direction: column;
+    }
+
+    .card-piloto {
+        width: 100%;
+    }
+
+}
