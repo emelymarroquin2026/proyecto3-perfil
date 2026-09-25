@@ -99,6 +99,7 @@ section h2 {
     padding: 20px;
     width: 300px;
     border-radius: 10px;
+    border: 2px solid #eab308;
 }
 
 .card-piloto h2 {
